@@ -1,3 +1,4 @@
+//FE = Function Expression
 (function() {
     
     console.log('Starting MultiMath with an IIFE');
@@ -16,4 +17,4 @@
     // set the default number of problems
     document.getElementById('problemCount').value = game.getProblemCount();
     
-})();
+})();//II =  Imediately Invocked 
